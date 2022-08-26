@@ -101,7 +101,7 @@ We'll be using Django as our backend framework for the next few lectures of Unit
   $ django-admin startapp tunr
   ```
 
-  Note: if django-admin doesn't work, you can replace it with `python3 manage.py`, assuming `manage.py` is in your current directory. Again, make sure you're running the following command within the virtual environment you created in step 3.
+  Note: if django-admin doesn't work, you can replace it with `pipenv run django-admin`, assuming `manage.py` is in your current directory. Again, make sure you're running the following command within the virtual environment you created in step 3.
 
   This step creates an "app" inside of our project repo called `tunr`. `tunr_django` is the base django project, where we handle our routes. `tunr` is where we write our models, controllers, and templates.
 
