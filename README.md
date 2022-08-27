@@ -190,8 +190,6 @@ After running postgres, create a new file called `settings.sql` in the project r
 
 13. Finally, navigate to `localhost:8000`. You should see a page welcoming you to Django!
 
-
-  **_If you are running into errors or issues, please file a Github issue on this repo and attach screenshots of all the errors you are getting so an instructor can assist you with setup next week prior to lecture._**
   
 ## Troubleshooting
 Getting a `psql: FATAL: role “postgres” does not exist` error? Check out [this StackOverflow article](https://stackoverflow.com/questions/15301826/psql-fatal-role-postgres-does-not-exist).
